@@ -3,6 +3,7 @@ import {Hello} from './Hello.jsx';
 import { SnowRemoval } from './SnowRemoval.jsx';
 import { F2C } from './F2C.jsx';
 import { H2V } from './H2V.jsx';
+import { Gym } from './Gym.jsx';
 import {
   View,
 } from 'react-native';
@@ -41,6 +42,11 @@ export default function App() {
       <H2V height={1} />   
       <H2V height={2} />   
       <H2V height={3} />
+      <Gym cost={100} friends={0} />  
+      <Gym cost={100} friends={1} />  
+      <Gym cost={100} friends={2} />  
+      <Gym cost={100} friends={3} />  
+      <Gym cost={100} friends={4} />  
     </View>
   );
 }
