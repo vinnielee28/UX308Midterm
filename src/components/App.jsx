@@ -19,7 +19,6 @@ export default function App() {
         loonies={0} 
         toonies={0} 
       />
-
       <Coin 
         nickels={1} 
         dimes={1} 
@@ -27,7 +26,6 @@ export default function App() {
         loonies={1} 
         toonies={1} 
       />
-
       <Coin 
         nickels={1} 
         dimes={2} 
@@ -35,6 +33,9 @@ export default function App() {
         loonies={4} 
         toonies={5} 
       />
+      <F2C f2c={32} />
+      <F2C f2c={212} />
+      <F2C f2c={70} />
     </View>
   );
 }
