@@ -10,7 +10,7 @@ export function Coin({ nickels, dimes, quarters, loonies, toonies }) {
     // processing
     let total = coin(nickels, dimes, quarters, loonies, toonies);
 
-    // output jsx to be displayed
+    // output 
     return(
         <View>
             <Text>
