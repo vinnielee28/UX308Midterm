@@ -4,6 +4,7 @@ import { SnowRemoval } from './SnowRemoval.jsx';
 import { F2C } from './F2C.jsx';
 import { H2V } from './H2V.jsx';
 import { Gym } from './Gym.jsx';
+import { Earthquake } from './Earthquake.jsx';
 import {
   View,
 } from 'react-native';
@@ -47,6 +48,11 @@ export default function App() {
       <Gym cost={100} friends={2} />  
       <Gym cost={100} friends={3} />  
       <Gym cost={100} friends={4} />  
+      <Earthquake intensity={4.8} />  
+      <Earthquake intensity={5.2} />  
+      <Earthquake intensity={6.0} />  
+      <Earthquake intensity={7.0} />  
+      <Earthquake intensity={8.0} />  
     </View>
   );
 }
