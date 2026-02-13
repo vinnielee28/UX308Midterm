@@ -4,7 +4,7 @@ export function f2c(fahrenheit){
     let celsius = (fahrenheit - 32) * (5 / 9);
 
     // function
-    return celsius;
+    return parseFloat(celsius.toFixed(2));
 }
 
 if (import.meta.main){

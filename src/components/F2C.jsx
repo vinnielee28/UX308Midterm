@@ -5,7 +5,7 @@ import {
 import { f2c } from '../f2c.js';
 
 // input: F2C in Fahrenheit
-export function F2C({ fahrenheit }) {
+export function F2C({ fahrenheit = 70 }) {
 
     // processing
     let celsius = f2c(fahrenheit);
@@ -14,7 +14,7 @@ export function F2C({ fahrenheit }) {
     return(
         <View>
             <Text>
-                fahrenheit({fahrenheit ?? ""}) returned { celsius.toFixed(2) }°C
+                f2c({fahrenheit ?? ""}) returned { celsius }°C
             </Text>
         </View>
     );

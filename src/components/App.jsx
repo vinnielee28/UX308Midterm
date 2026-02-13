@@ -1,6 +1,7 @@
 import { Coin } from './Coin.jsx';
 import {Hello} from './Hello.jsx';
 import { SnowRemoval } from './SnowRemoval.jsx';
+import { F2C } from './F2C.jsx';
 import {
   View,
 } from 'react-native';
@@ -33,9 +34,9 @@ export default function App() {
         loonies={4} 
         toonies={5} 
       />
-      <F2C f2c={32} />
-      <F2C f2c={212} />
-      <F2C f2c={70} />
+      <F2C fahrenheit={32} />
+      <F2C fahrenheit={212} />
+      <F2C fahrenheit={70} />
     </View>
   );
 }
